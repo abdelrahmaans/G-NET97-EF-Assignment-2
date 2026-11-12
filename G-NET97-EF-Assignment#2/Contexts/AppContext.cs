@@ -11,7 +11,7 @@ namespace G_NET97_EF_Assignment_2.Data
 {
     internal class AppContext : DbContext
     {
-        public AppContext(DbContextOptions<AppContext> options) : base(options)
+        public AppContext() : base()
         {
         }
 
